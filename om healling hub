@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Om Healing Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background: rgba(0,0,0,0.5);
+}
+
+header h1{
+font-size:48px;
+color:#ffccff;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+color:#ddd;
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:30px;
+font-size:32px;
+color:#ffd700;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+border-radius:15px;
+overflow:hidden;
+transition:0.4s;
+box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+margin-top:40px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 25px;
+background:#ff66cc;
+color:white;
+text-decoration:none;
+border-radius:25px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff3399;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🕉 Om Healing Hub</h1>
+<p>Spiritual Healing • Tarot Guidance • Crystal Energy • Chakra Balance</p>
+<a href="#services" class="btn">Explore Services</a>
+</header>
+
+<section class="section" id="services">
+<h2>Our Healing Services</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="tarot.jpg">
+<h3>Osho Zen Tarot Reading</h3>
+</div>
+
+<div class="card">
+<img src="life-purpose.jpg">
+<h3>Life Purpose Card Reading</h3>
+</div>
+
+<div class="card">
+<img src="green-apatite.jpg">
+<h3>Green Apatite Bracelet</h3>
+</div>
+
+<div class="card">
+<img src="opal.jpg">
+<h3>Opal Healing Bracelet</h3>
+</div>
+
+<div class="card">
+<img src="evil-eye.jpg">
+<h3>Evil Eye Pendant</h3>
+</div>
+
+<div class="card">
+<img src="evil-eye-set.jpg">
+<h3>Evil Eye Collection</h3>
+</div>
+
+<div class="card">
+<img src="amethyst.jpg">
+<h3>Amethyst Healing Bracelet</h3>
+</div>
+
+<div class="card">
+<img src="rudraksha.jpg">
+<h3>Gauri Shankar Rudraksha</h3>
+</div>
+
+<div class="card">
+<img src="chakras.jpg">
+<h3>Chakra Healing Energy</h3>
+</div>
+
+<div class="card">
+<img src="chrysocolla.jpg">
+<h3>Chrysocolla Bracelet</h3>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Om Healing Hub | Healing with Divine Energy ✨</p>
+</footer>
+
+</body>
+</html>
